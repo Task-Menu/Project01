@@ -25,5 +25,12 @@ namespace TaskManager
             window.Owner = this;
             window.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            var window = new DataGrid();
+            window.Owner = this;
+            window.Show();
+        }
     }
 }
